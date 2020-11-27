@@ -11,5 +11,7 @@ public class App {
         LocalDateExample.main(null);
         LocalTimeExample.main(null);
         LocalDateTimeExample.main(null);
+
+        TimeZoneExample.main(null);
     }
 }
