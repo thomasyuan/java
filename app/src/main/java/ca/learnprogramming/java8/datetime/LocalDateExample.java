@@ -1,4 +1,4 @@
-package ca.learnprogramming.java8;
+package ca.learnprogramming.java8.datetime;
 
 import static java.time.DayOfWeek.*;
 import static java.time.temporal.TemporalAdjusters.*;
