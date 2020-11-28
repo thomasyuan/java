@@ -11,7 +11,10 @@ public class InputOutputStreamExample {
 
         final String src = "/home/thomas/workspace/java8/gradlew";
         final String dst = "/home/thomas/workspace/java8/iostream.bak";
-        byte[] buffer = new byte[64];
+        byte[] buffer = new byte[1024];
+
+        System.out.println("\n==== Input/Output Stream Example ====");
+        System.out.println("copy gradlew iostream.bak");
 
         try (FileInputStream fis = new FileInputStream(src);
                 FileOutputStream fos = new FileOutputStream(dst)) {
@@ -20,7 +23,6 @@ public class InputOutputStreamExample {
 
             int read = 0;
             while ((read = fis.read(buffer)) != -1) {
-                System.out.println("read " + read + " bytes");
                 fos.write(buffer, 0, read);
             }
         } catch (IOException e) {

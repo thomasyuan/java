@@ -29,7 +29,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'ca.learnprogramming.java8.io.ReaderWriterExample'
+    mainClass = 'ca.learnprogramming.java8.App'
 }
 
 tasks.named('test') {

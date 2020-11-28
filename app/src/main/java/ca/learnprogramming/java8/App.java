@@ -9,13 +9,15 @@ public class App {
 
         System.out.println("#### Learn Programming - Java8 ####");
 
-        LocalDateExample.main(null);
-        LocalTimeExample.main(null);
-        LocalDateTimeExample.main(null);
-        TimeZoneExample.main(null);
-        FormatterExample.main(null);
+        // LocalDateExample.main(null);
+        // LocalTimeExample.main(null);
+        // LocalDateTimeExample.main(null);
+        // TimeZoneExample.main(null);
+        // FormatterExample.main(null);
 
-        InputOutputStreamExample.main(null);
-        ReaderWriterExample.main(null);
+        // InputOutputStreamExample.main(null);
+        // ReaderWriterExample.main(null);
+        // ConsoleExample.main(null);
+        SerializationExample.main(null);
     }
 }
