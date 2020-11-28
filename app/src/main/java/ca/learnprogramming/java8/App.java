@@ -13,5 +13,6 @@ public class App {
         LocalDateTimeExample.main(null);
 
         TimeZoneExample.main(null);
+        FormatterExample.main(null);
     }
 }

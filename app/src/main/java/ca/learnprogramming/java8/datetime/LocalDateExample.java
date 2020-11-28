@@ -24,6 +24,9 @@ public class LocalDateExample {
         System.out.println("Birthday is leap year? " + birthday.isLeapYear());
         System.out.println("Is birthday in the past? " + birthday.isBefore(now));
 
+        LocalDate b2 = birthday.plusYears(6).plusMonths(7).plusDays(15);
+        System.out.println("Second birthday is " + b2);
+
         oneMonthLater = now.plusMonths(1);
         System.out.println("One month laster: " + oneMonthLater);
 

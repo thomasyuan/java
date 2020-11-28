@@ -5,6 +5,7 @@ import static java.time.temporal.ChronoUnit.*;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.ZoneId;
+import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 import java.util.Date;
 
@@ -21,6 +22,10 @@ public class TimeZoneExample {
 
         System.out.println("EAST : " + toronto);
         System.out.println("Beijing: " + beijing);
+        System.out.println("Beijing: " + ZonedDateTime.of(LocalDateTime.now(), BEIJING));
+
+        ZoneOffset offset = ZoneOffset.ofHours(2);
+        System.out.println("Offset: " + offset);
 
         ZonedDateTime ac32Departure = ZonedDateTime.of(2020, 8, 8, 19, 05, 0, 0, BEIJING);
         ZonedDateTime ac32Arrival = ZonedDateTime.of(2020, 8, 8, 18, 40, 0, 0, EAST);

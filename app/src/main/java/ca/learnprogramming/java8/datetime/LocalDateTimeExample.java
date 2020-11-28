@@ -17,6 +17,7 @@ public class LocalDateTimeExample {
         meeting = LocalDateTime.of(2020, Month.DECEMBER, 18, 10, 20);
         System.out.println("Meeting: " + meeting);
         System.out.println("Meeting postponed to " + meeting.plusHours(1));
+        System.out.println("Meeting with hour " + meeting.withHour(3));
         System.out.println("Meeting hold at " + meeting.getMonth());
     }
 }
