@@ -2,7 +2,6 @@ package ca.learnprogramming.java8.io;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class InputOutputStreamExample {

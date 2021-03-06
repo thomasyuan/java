@@ -12,6 +12,7 @@ import java.util.ArrayList;
 public class SerializationExample {
 
     static class Item implements Serializable {
+        private static final long serialVersionUID = 1L;
         private final int mId;
         private final String mName;
         private final float mPrice;
@@ -28,9 +29,9 @@ public class SerializationExample {
     }
 
     static class ShoppingCart implements Serializable {
+        private static final long serialVersionUID = 1L;
         private final int mId;
         private List<Item> mItems = new ArrayList<>();
-
         ShoppingCart(final int id) {
             mId = id;
         }

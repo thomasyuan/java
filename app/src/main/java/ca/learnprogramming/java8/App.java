@@ -1,7 +1,7 @@
 package ca.learnprogramming.java8;
 
-import ca.learnprogramming.java8.datetime.*;
-import ca.learnprogramming.java8.io.*;
+// import ca.learnprogramming.java8.datetime.*;
+// import ca.learnprogramming.java8.io.*;
 import ca.learnprogramming.java8.collections.*;
 
 public class App {

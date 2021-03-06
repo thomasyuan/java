@@ -3,11 +3,9 @@ package ca.learnprogramming.java8.datetime;
 import static java.time.temporal.ChronoUnit.*;
 
 import java.time.LocalDateTime;
-import java.time.Month;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
-import java.util.Date;
 
 public class TimeZoneExample {
 
