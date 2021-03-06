@@ -2,6 +2,7 @@ package ca.learnprogramming.java8;
 
 import ca.learnprogramming.java8.datetime.*;
 import ca.learnprogramming.java8.io.*;
+import ca.learnprogramming.java8.collections.*;
 
 public class App {
 
@@ -18,6 +19,7 @@ public class App {
         // InputOutputStreamExample.main(null);
         // ReaderWriterExample.main(null);
         // ConsoleExample.main(null);
-        SerializationExample.main(null);
+        // SerializationExample.main(null);
+        ArrayTest.main(null);
     }
 }
