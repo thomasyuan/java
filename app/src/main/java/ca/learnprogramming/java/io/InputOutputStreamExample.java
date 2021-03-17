@@ -1,4 +1,4 @@
-package ca.learnprogramming.java8.io;
+package ca.learnprogramming.java.io;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,8 +8,8 @@ public class InputOutputStreamExample {
 
     public static void main(String[] args) {
 
-        final String src = "/home/thomas/workspace/java8/gradlew";
-        final String dst = "/home/thomas/workspace/java8/iostream.bak";
+        final String src = "/home/thomas/workspace/java/gradlew";
+        final String dst = "/home/thomas/workspace/java/iostream.bak";
         byte[] buffer = new byte[1024];
 
         System.out.println("\n==== Input/Output Stream Example ====");

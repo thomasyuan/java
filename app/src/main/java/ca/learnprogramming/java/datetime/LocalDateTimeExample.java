@@ -1,4 +1,4 @@
-package ca.learnprogramming.java8.datetime;
+package ca.learnprogramming.java.datetime;
 
 import java.time.LocalDateTime;
 import java.time.Month;

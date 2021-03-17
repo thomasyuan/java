@@ -1,14 +1,14 @@
-package ca.learnprogramming.java8;
+package ca.learnprogramming.java;
 
-// import ca.learnprogramming.java8.datetime.*;
-// import ca.learnprogramming.java8.io.*;
-import ca.learnprogramming.java8.collections.*;
+// import ca.learnprogramming.java.datetime.*;
+// import ca.learnprogramming.java.io.*;
+import ca.learnprogramming.java.collections.*;
 
 public class App {
 
     public static void main(String[] args) {
 
-        System.out.println("#### Learn Programming - Java8 ####");
+        System.out.println("#### Learn Programming - java ####");
 
         // LocalDateExample.main(null);
         // LocalTimeExample.main(null);

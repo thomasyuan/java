@@ -1,4 +1,4 @@
-package ca.learnprogramming.java8.common;
+package ca.learnprogramming.java.common;
 
 public class Student {
     private final String mName;

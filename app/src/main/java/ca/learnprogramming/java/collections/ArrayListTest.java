@@ -1,7 +1,7 @@
-package ca.learnprogramming.java8.collections;
+package ca.learnprogramming.java.collections;
 
 import java.util.ArrayList;
-import ca.learnprogramming.java8.common.*;
+import ca.learnprogramming.java.common.*;
 
 public class ArrayListTest {
     public static void main(String[] args) {
