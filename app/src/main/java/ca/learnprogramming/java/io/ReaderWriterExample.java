@@ -1,4 +1,4 @@
-package ca.learnprogramming.java8.io;
+package ca.learnprogramming.java.io;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -8,8 +8,8 @@ public class ReaderWriterExample {
 
     public static void main(String[] args) {
 
-        final String src = "/home/thomas/workspace/java8/gradlew";
-        final String dst = "/home/thomas/workspace/java8/writer.bak";
+        final String src = "/home/thomas/workspace/java/gradlew";
+        final String dst = "/home/thomas/workspace/java/writer.bak";
         char[] buffer = new char[1024];
 
         System.out.println("\n==== Reader/Writer Example ====");

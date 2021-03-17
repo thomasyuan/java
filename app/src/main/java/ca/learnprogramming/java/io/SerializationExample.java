@@ -1,4 +1,4 @@
-package ca.learnprogramming.java8.io;
+package ca.learnprogramming.java.io;
 
 import java.io.IOException;
 import java.io.FileInputStream;
